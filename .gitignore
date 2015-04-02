@@ -11,3 +11,9 @@
 
 # ignore node_modules
 nodue_modules
+
+# ignore bower_components
+bower_components
+
+# ingore copied src files
+example/src
