@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+# ignore idea files
+.idea/*
+
+# ignore mac .DS_Store
+.DS_Store
+
+# ignore all the logs
+.log
+
+# ignore node_modules
+nodue_modules
