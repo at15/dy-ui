@@ -10,6 +10,7 @@
 
     <script src="../src/app.js"></script>
     <script src="../src/filters/markdown.js"></script>
+    <script src="../src/directives/markdown-viewer.js"></script>
 
     <script src="controller.js"></script>
 </head>
@@ -20,6 +21,8 @@
     <h3>Markdown example</h3>
 
     <div ng-bind-html="md | markdown"></div>
+
+    <markdown-viewer src="mie.md"></markdown-viewer>
 </div>
 </body>
 </html>
