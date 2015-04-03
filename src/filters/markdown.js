@@ -3,8 +3,9 @@
  */
 // angular filter using marked
 angular.module('dy-ui')
-    .filter('markdown', ['$sce',function ($sce) {
-        return function (markdownText) {
-            return $sce.trustAsHtml(marked(markdownText));
-        }
-    }]);
+    .filter('markdown', ['markdownRender',
+        function (markdownRender) {
+            return function (markdownText) {
+                return markdownRender.renderWithSce(markdownText);
+            }
+        }]);
