@@ -10,7 +10,7 @@
 .log
 
 # ignore node_modules
-nodue_modules
+node_modules
 
 # ignore bower_components
 bower_components

@@ -6,6 +6,8 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
 
+    <script src="../node_modules/marked/lib/marked.js"></script>
+
     <script src="../src/app.js"></script>
     <script src="../src/filters/markdown.js"></script>
 
@@ -17,7 +19,7 @@
 
     <h3>Markdown example</h3>
 
-    <div>{{ md | markdown }}</div>
+    <div ng-bind-html="md | markdown"></div>
 </div>
 </body>
 </html>

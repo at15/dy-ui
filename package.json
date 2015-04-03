@@ -4,6 +4,9 @@
     "devDependencies":{
 
     },
+    "dependencies":{
+        "marked":"latest"
+    },
     "scripts":{
 
     }
